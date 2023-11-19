@@ -7,29 +7,17 @@ The ATM Simulator is a command-line application written in C that emulates the b
 
 # Features
 
-Account Creation:
+Account Creation: Users can create new accounts by providing their name, account number, password, and an initial deposit.
 
-Users can create new accounts by providing their name, account number, password, and an initial deposit.
+File Storage: Account information is stored in a file (accountt.txt) using efficient data structures.
 
-File Storage:
+Deposit: Account holders can deposit money into their accounts, increasing their balance.
 
-Account information is stored in a file (accountt.txt) using efficient data structures.
+Withdrawal: Users can withdraw funds from their accounts, provided they enter the correct password.
 
-Deposit:
+Balance Checking: Account holders can check their account balance after entering the correct password.
 
-Account holders can deposit money into their accounts, increasing their balance.
-
-Withdrawal:
-
-Users can withdraw funds from their accounts, provided they enter the correct password.
-
-Balance Checking:
-
-Account holders can check their account balance after entering the correct password.
-
-Account Deletion:
-
-Users can delete their accounts by providing the account number and confirming the password.
+Account Deletion: Users can delete their accounts by providing the account number and confirming the password.
 
 # Technologies Used
 
@@ -39,7 +27,11 @@ File Handling: File I/O operations are used to store and retrieve account inform
 
 Data Structures: DSA principles are applied for efficient account data management.
 
-Code Structure
+Data Structures Used:  linked lists, arrays, etc.
+
+Algorithms Implemented:  searching, sorting, etc
+
+# Code Structure
 
 main.c: Contains the main logic for the ATM simulator, integrating DSA for efficient data handling.
 
@@ -62,10 +54,6 @@ Choose option 5 to check your account balance. Enter the account number and the 
 5. Deleting an Account
 If you wish to delete your account, select option 6, enter your account number, and confirm your password.
 
-
-Data Structures Used:  linked lists, arrays, etc.
-
-Algorithms Implemented:  searching, sorting, etc.  
 
 # Contributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.
 
