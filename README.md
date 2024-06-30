@@ -1,6 +1,6 @@
 # ATM Simulator
 
-Project by [Dhanush M](https://github.com/DhanushM007) and Eshwar K 
+Project by [Dhanush M](https://github.com/DhanushM007) and [Eshwar K](https://github.com/1RN21CS056) 
 
 # Project Description
 The ATM Simulator is a command-line application written in C that emulates the basic functionalities of an Automated Teller Machine (ATM). The project incorporates Data Structures and Algorithms (DSA) to efficiently manage account data and perform transactions. Users can create accounts, make deposits, withdrawals, check balances, and delete accounts.
